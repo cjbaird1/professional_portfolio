@@ -13,7 +13,7 @@ export default function Education() {
                 Brigham Young University - Idaho
               </h3>
               <p className="text-lg font-semibold text-slate-300 mb-2">
-                Bachelor's of Science: Software Engineering
+                Bachelor&apos;s of Science: Software Engineering
               </p>
             </div>
             <div className="text-right">
