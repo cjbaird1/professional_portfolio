@@ -7,7 +7,7 @@ export default function Resume() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf";
+    link.href = "/Resume.pdf";
     link.download = "Caden_Baird_Resume.pdf";
     document.body.appendChild(link);
     link.click();
@@ -100,7 +100,7 @@ export default function Resume() {
             {/* PDF Viewer */}
             <div className="flex-1 overflow-hidden">
               <iframe
-                src="/resume.pdf"
+                src="/Resume.pdf"
                 className="w-full h-full"
                 title="Resume Preview"
               />

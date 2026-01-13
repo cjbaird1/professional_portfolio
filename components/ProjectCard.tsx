@@ -30,7 +30,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="bg-slate-800/90 backdrop-blur-sm rounded-2xl border border-slate-700/50 overflow-hidden transition-all duration-300 shadow-2xl">
+    <div className="bg-slate-800/90 backdrop-blur-sm rounded-2xl border border-slate-700/50 overflow-hidden transition-all duration-300 shadow-2xl flex flex-col h-full">
       <div className="relative h-40 w-full overflow-hidden">
         <Image
           src={project.image}
@@ -40,7 +40,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 to-transparent"></div>
       </div>
-      <div className="p-5">
+      <div className="p-5 flex flex-col flex-1">
         <div className="flex items-start justify-between gap-3 mb-3">
           <h3 className="text-xl font-bold text-slate-100 flex-1">
             {project.title}
@@ -51,7 +51,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             </span>
           )}
         </div>
-        <p className="text-slate-300 mb-4 line-clamp-3 leading-relaxed text-sm">
+        <p className="text-slate-300 mb-4 line-clamp-3 leading-relaxed text-sm min-h-[4.5rem]">
           {project.description}
         </p>
         <div className="flex flex-wrap gap-2 mb-4">
@@ -114,7 +114,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           </div>
         )}
 
-        <div className={`flex gap-2 ${project.liveUrl || !project.githubUrl ? '' : 'justify-center'}`}>
+        <div className={`flex gap-2 mt-auto ${project.liveUrl || !project.githubUrl ? '' : 'justify-center'}`}>
           {project.githubUrl && (
             <Link
               href={project.githubUrl}

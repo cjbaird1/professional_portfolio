@@ -27,7 +27,7 @@ export default function Education() {
               <span className="font-medium">Minor:</span> Statistics
             </p>
             <p className="text-base md:text-lg">
-              <span className="font-medium">GPA:</span> 3.93 / 4.0
+              <span className="font-medium">GPA:</span> 3.91 / 4.0
             </p>
           </div>
         </div>
