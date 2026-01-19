@@ -8,8 +8,8 @@ export default function AboutMe() {
         <p className="text-slate-300 leading-relaxed mb-4 text-base md:text-lg">
 
           I&apos;m a Software Engineering major who graduated in Dec. 2025, with experience in QA engineering, 
-          data analysis, and building real-world projects. I&apos;m driven and motivated by progression, always pushing myself 
-          to learn new things and expand my skillset. My natural curiosity helps me adapt quickly in fast-moving environments 
+          data analysis, and building real projects. I&apos;m driven and motivated by progression, always pushing myself 
+          to learn new things and expand my skillset. My natural curiosity helps me adapt quickly in fast environments 
           and take on challenges with confidence. I&apos;m excited to build a future in tech and I&apos;m open to a wide range of roles 
           where I can contribute, grow, and make a meaningful impact.
           
